@@ -8,7 +8,7 @@ Verify if a phone number is registered on WhatsApp. Use with Claude Code or Curs
 
 ## Prerequisites
 
-- Access to the [WhatsApp Number Checker API](https://wa-check-api.whatsabot.com). You need an API key for REST or MCP calls (see [API docs](https://wa-check-api.whatsabot.com) or `Skills/references/api.md` in this repo).
+- Access to the [WhatsApp Number Checker API](https://wa-check-api.whatsabot.com). You need an API key for REST or MCP calls (see [API docs](https://wanumberchecker.whatsabot.com/api-docs) or `Skills/references/api.md` in this repo).
 - For Cursor: copy or symlink the `Skills` directory to `~/.cursor/skills/wa-number-checker-skills` so the skill is loaded.
 
 ## Installation
@@ -69,7 +69,7 @@ You can also **Enable auto-update** to get the latest versions automatically.
 
 ## API and credentials
 
-- **Get API key**: See [wa-check-api.whatsabot.com](https://wa-check-api.whatsabot.com) or `Skills/references/api.md` in this repo.
+- **Get API key**: See [https://wanumberchecker.whatsabot.com/api-docs](https://wanumberchecker.whatsabot.com/api-docs) or `Skills/references/api.md` in this repo.
 - **REST**: Send `x-api-key: YOUR_API_KEY` in the request header.
 - **MCP**: Configure the wa-check-api MCP with the same API key (see your Claude Code or Cursor MCP settings).
 
@@ -97,4 +97,4 @@ MIT
 用于查询某个电话号码是否已注册 WhatsApp 的技能，可在 Claude Code 或 Cursor 中使用。
 
 - **安装**：运行 `npx skills add whatsabot-hq/wa-number-checker-skills` 或在 Claude Code 中执行 `/plugin marketplace add whatsabot-hq/wa-number-checker-skills`，然后安装 **wa-number-checker** 插件。
-- **使用**：对助手说“查一下 +34605797764 有没有 WhatsApp”或 “Does this number have WhatsApp?” 等即可触发；需配置 [WhatsApp Number Checker API](https://wa-check-api.whatsabot.com) 的 API key（REST 或 MCP）。
+- **使用**：对助手说“查一下 +34605797764 有没有 WhatsApp”或 “Does this number have WhatsApp?” 等即可触发；需配置 [WhatsApp Number Checker API](https://wanumberchecker.whatsabot.com/api-docs) 的 API key（REST 或 MCP）。
