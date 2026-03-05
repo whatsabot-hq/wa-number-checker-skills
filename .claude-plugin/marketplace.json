@@ -1,0 +1,13 @@
+{
+  "name": "wa-number-checker-skills",
+  "owner": {
+    "name": "whatsabot-hq"
+  },
+  "plugins": [
+    {
+      "name": "wa-number-checker",
+      "source": "./Skills",
+      "description": "Verify whether a phone number is registered on WhatsApp. Use MCP or REST API with x-api-key."
+    }
+  ]
+}
